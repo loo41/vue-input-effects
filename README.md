@@ -7,7 +7,7 @@
 ### Install
 
 ```
-    npm install vue-input-effects
+    npm install --save vue-input-effects
     
     yarn add vue-input-effects
 ```
@@ -40,10 +40,10 @@
 | height  | string/number | 35         |            |
 | width   | string/number | 260        |            |
 | input-style| string     |            | 输入框样式 宽高不管用  |
-| disabled| boolean       | false      | 是否可点击 |
+| disabled| boolean       | false      | 是否可点击使用 |
 | autofocus | boolean     | false      | 是否自动聚焦 |
 | full-width | boolean     | false      | 是否沾满父盒子 |
-| help-text  | string      |            | 提示问题   |
+| help-text  | string      |            | 提示文字   |
 | focus   | function      |            | 输入框聚焦事件 |
 | blur    | function      |            | 输入框失焦事件 |
 | change  | function      |            | 输入框改变事件 |

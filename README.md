@@ -1,5 +1,7 @@
 ## vue-input
 
+[gif效果](https://github.com/loo41/vue-input/blob/master/docs/input.gif)
+
 ---
 
 ### Install

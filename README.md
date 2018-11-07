@@ -29,7 +29,7 @@
     }
     
 ```
-[example](https://github.com/loo41/vue-input/example/)
+[example](https://github.com/loo41/vue-input/tree/master/example)
 
 ---
 

@@ -1,6 +1,6 @@
 ## vue-input
 
-[gif效果](https://github.com/loo41/vue-input/blob/master/docs/input.gif)
+![image](https://github.com/loo41/vue-input/blob/master/docs/input.gif)
 
 ---
 
@@ -29,7 +29,7 @@
     }
     
 ```
-[example](https://github.com/loo41/vue-input/example/index.vue)
+[example](https://github.com/loo41/vue-input/example/)
 
 ---
 

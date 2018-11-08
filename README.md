@@ -1,4 +1,4 @@
-## vue-input
+## vue-input-effects
 
 ![image](https://github.com/loo41/vue-input/blob/master/docs/input.gif)
 

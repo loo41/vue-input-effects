@@ -62,7 +62,7 @@
 ---
 
 ### 组件
-#### [效果](https://loo41.github.io/vue-input/)
+#### [效果](https://loo41.github.io/vue-input-effects/)
 ---
 所有组件默认插槽无样式需要自定义样式后可见效果
 

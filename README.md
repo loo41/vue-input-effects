@@ -1,3 +1,3 @@
 # vue-input
 
-vue-input-demo 源码在master分支的example
+vue-input-effects demo 源码在master分支的example

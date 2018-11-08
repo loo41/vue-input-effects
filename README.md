@@ -1,4 +1,4 @@
-## vue-input
+## vue-input-effects
 
 ![image](https://github.com/loo41/vue-input/blob/master/docs/input.gif)
 
@@ -29,7 +29,7 @@
     }
     
 ```
-[example](https://github.com/loo41/vue-input/tree/master/example)
+[example](https://github.com/loo41/vue-input-effects/tree/master/example)
 
 ---
 
@@ -62,7 +62,7 @@
 ---
 
 ### 组件
-#### [效果](https://loo41.github.io/vue-input/)
+#### [效果](https://loo41.github.io/vue-input-effects/)
 ---
 所有组件默认插槽无样式需要自定义样式后可见效果
 

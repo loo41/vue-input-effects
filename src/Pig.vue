@@ -164,27 +164,25 @@ export default {
 <style scoped>
 .input-box {
   display: flex;
-  box-sizing: unset!important;
 }
 .input-swiper {
   position: relative;
-  box-sizing: border-box;
   flex: 1;
 }
 .bottom-underline {
   position: absolute;
-  bottom: -1px;
-  left: 0;
-  right: 0;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
   height: 2px;
   background: #CE02E8;
   transition: transform 1s;
 }
 .right-underline {
   position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
   width: 2px;
   transform: scale(0);
   transform-origin: bottom right;
@@ -193,9 +191,9 @@ export default {
 }
 .top-underline {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 1px;
+  left: 1px;
+  right: 1px;
   height: 2px;
   background: #CE02E8;
   transform: scale(0);
@@ -204,9 +202,9 @@ export default {
 }
 .left-underline {
   position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
+  left: 1px;
+  top: 1px;
+  bottom: 1px;
   width: 2px;
   transform-origin: left top;
   background: #CE02E8;
@@ -221,6 +219,7 @@ input {
   border: none;
   padding: 0 10px;
   font-size: 14px;
+  box-sizing: border-box;
   letter-spacing: 1px;
 }
 </style>

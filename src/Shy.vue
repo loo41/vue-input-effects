@@ -31,7 +31,7 @@
         <div 
           class="slot-box"
           ref="slotBox"
-          :style="'height:' + iconHeight + ';width:' + iconHeight + ';' + position + ';'">
+          :style="'height: 100%' + ';width:' + iconHeight + ';' + position + ';'">
           <slot name="icon-slot"></slot>
         </div>
       </div>
@@ -57,7 +57,7 @@ export default {
     },
     height: {
       type: [String, Number],
-      default: 35
+      default: 60
     },
     width: {
       type: [String, Number],
@@ -120,8 +120,7 @@ export default {
       return styleArray.join(';')
     },
     boxHeight () {
-      if (this.fullWidth) return `100%`
-      else if (typeof this.height === 'number') return `${this.height}px`
+      if (typeof this.height === 'number') return `${this.height}px`
       else return this.height
     },
     boxWidth () {
@@ -197,23 +196,24 @@ export default {
 }
 .input-swiper {
   position: relative;
-  box-sizing: border-box;
   flex: 1;
 }
 .default-underline {
   position: absolute;
-  bottom: -1px;
+  bottom: 0px;
   left: 0;
   right: 0;
   height: 1px;
+  z-index: 1;
   background: #D1D1D1;
 }
 .active-underline {
   position: absolute;
-  bottom: -1px;
   left: 0;
   right: 0;
   height: 2px;
+  bottom: 0;
+  z-index: 2;
   background: #CE02E8;
   transform: scaleX(0);
   transition: transform 1s;
@@ -233,6 +233,7 @@ input {
 .slot-box {
   position: absolute;
   top: 0;
+  bottom: 0;
   transition: transform 1s;
   transform: translateX(0)
 }

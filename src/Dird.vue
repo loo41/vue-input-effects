@@ -140,13 +140,13 @@ export default {
       }, 500)
       setTimeout(() => {
         if (this.empty) {
-          this.$refs.input.style.cssText = `background: ${this.underlineColor}`
+          this.$refs.input.style.cssText = `background: ${this.underlineColor}; height: 100%;`
           this.$refs.underline.style.cssText = `top: 0%; height: 100%; z-index: -10`
         }
       }, 1000)
     },
     _backAnimation () {
-      this.$refs.input.style.cssText = `background: none;`
+      this.$refs.input.style.cssText = `background: none; height: 100%;`
       this.$refs.underline.style.cssText = `top: 0%; height: 2px; z-index: 2; background: ${this.underlineColor}`
       setTimeout(() => {
         if (!this.empty) {

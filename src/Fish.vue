@@ -170,23 +170,24 @@ export default {
 }
 .input-swiper {
   position: relative;
-  box-sizing: border-box;
   flex: 1;
 }
 .default-underline {
   position: absolute;
-  bottom: -1px;
+  bottom: 1px;
   left: 0;
   right: 0;
+  z-index: 1;
   height: 1px;
   background: #D1D1D1;
 }
 .active-underline {
   position: absolute;
-  bottom: -1px;
   left: 0;
   right: 0;
   height: 2px;
+  bottom: 1px;
+  z-index: 2;
   background: #CE02E8;
   transform: scaleX(0);
   transition: transform 1s;
@@ -207,7 +208,7 @@ input {
   left: 0;
   width: auto;
   top: 0;
-  bottom: 0;
+  bottom: 1px;
   transition: all .5s ease;
   transform-origin: left top;
 }

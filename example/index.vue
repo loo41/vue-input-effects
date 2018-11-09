@@ -15,12 +15,13 @@
         <Shy 
           v-model="input1"
           :full-width="true"
+          :height="50"
         >
           <div slot="icon-slot" class="input1"></div>
         </Shy>
       </div>
       <div class="box">
-        <Dird v-model="input2" />
+        <Dird v-model="input2" :full-width="true"/>
       </div>
       <div class="box">
         <Duck v-model="input3">
@@ -120,7 +121,7 @@ export default {
   margin: 0 auto;
 }
 .box {
-  height: 50px;
+  height: 60px;
   width: 100%;
   margin-top: 50px;
 }

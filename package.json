@@ -1,7 +1,7 @@
 {
   "name": "vue-input-effects",
   "description": "Vue input box components with special effects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Tcyong <1805170243@qq.com>",
   "main": "dist/vue-input.js",
   "license": "MIT",
